@@ -1,0 +1,23 @@
+.intro-about {
+    padding: 156px 0 178px 0;
+    position: relative;
+    background: var(--color-athens) url("../img/intro-about/Group 273.png") right -8px top no-repeat;
+
+    @include tablet {
+        background-image: none;
+        padding-bottom: 120px;
+    }
+
+    @include mobile {
+        padding: 120px 0 80px 0;
+    }
+
+    &__breadcrumbs {
+        margin-bottom: 44px;
+    }
+
+    &__title {
+        margin-bottom: 24px;
+    }
+}
+

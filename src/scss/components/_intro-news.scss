@@ -1,0 +1,26 @@
+.intro-news {
+    padding: 156px 0 238px 0;
+    background: var(--color-athens) url("../img/intro-news/bg-image.png") right -8px center no-repeat;
+
+    @include tablet {
+        background-image: none;
+        padding-bottom: 120px;
+    }
+
+    @include mobile {
+        padding: 110px 0 90px 0;
+    }
+
+    &__breadcrumbs {
+        margin-bottom: 44px;
+
+        @include mobile {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 24px;
+    }
+}
+

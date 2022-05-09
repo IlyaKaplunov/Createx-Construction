@@ -1,0 +1,40 @@
+.breadcrumbs {
+    @include flex-v-center;
+
+    @include minitablet {
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        position: relative;
+
+        @include minitablet {
+            margin-bottom: 20px;
+        }
+        
+        &:not(:last-child) {
+            margin-right: 22px;
+      
+            &::after {
+              content: "/";
+              position: absolute;
+              right: -14px;
+              top: 1px;
+              color: #9a9ca5;
+            }
+        }
+    }
+
+    &__link {
+        color: var(--color-gray);
+
+        &:focus {
+            outline: 2px solid var(--color-primary);
+            outline-offset: 2px;
+        }
+
+        &:not([href]) {
+            color: #9a9ca5;
+        }
+    }
+}

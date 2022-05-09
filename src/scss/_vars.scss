@@ -1,0 +1,20 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #424551;
+  --color-ebony: #1E212C;
+  --color-primary: #FF5A30;
+  --color-hover: #FC3300;
+  --color-storm: #787A80;
+  --color-athens: #F4F5F7;
+
+  --intro-slider-speed: 500;
+
+  --box-shadow: 
+    0px 80px 80px -20px rgba(154, 156, 165, 0.08), 
+    0px 30px 24px -10px rgba(154, 156, 165, 0.05), 
+    0px 12px 10px -6px rgba(154, 156, 165, 0.04), 
+    0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+}

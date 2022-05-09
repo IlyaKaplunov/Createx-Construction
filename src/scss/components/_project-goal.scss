@@ -1,0 +1,77 @@
+.project-goal {
+    padding-top: 110px;
+    padding-bottom: 120px;
+
+    @include mobile {
+        padding: 70px 0;
+    }
+
+    &__body {
+        @include grid;
+
+        @include tablet {
+            display: block;
+        }
+    }
+
+    &__left {
+        grid-column: 6 span;
+    }
+
+    &__title {
+        margin-bottom: 39px;
+        padding-top: 26px;
+    }
+
+    &__desc {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;   
+        margin-bottom: 27px;
+    }
+
+    &__right {
+        grid-column: 6 span;
+        display: flex;
+        justify-content: flex-end;
+
+        @include tablet {
+            justify-content: flex-start;
+        }
+    }
+
+    &__info {
+        background-color: var(--color-white);
+        box-shadow: var(--box-shadow);
+        border-radius: 4px;
+        width: 495px;
+        padding: 25px 60px;
+        min-height: 301px;
+
+        @include mobile {
+            padding: 25px;
+        }
+    }
+
+    &__item {
+        @include flex;
+        margin-bottom: 16.5px;
+    }
+
+    &__category {
+        text-transform: uppercase;
+        width: 130px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        color: var(--color-ebony);    
+        flex-shrink: 0;   
+    }
+
+    &__value {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: var(--color-storm);        
+    }
+}

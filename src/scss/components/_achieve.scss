@@ -1,0 +1,189 @@
+.achieve {
+    padding: 121px 0 120px 0;
+    position: relative;
+    overflow: hidden;
+
+    @include minitablet {
+        padding-top: 50px;
+    }
+
+    &__bg-img {
+        position: absolute;
+        bottom: -647px;
+        right: -9px;
+    }
+
+    &__stat {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 30px;
+        margin-bottom: 238px;
+
+        @include minitablet {
+            margin-bottom: 130px;
+        }
+
+        @include mobile {
+            display: block;
+            margin-bottom: 100px;
+        }
+    }
+
+    &__item {
+        grid-column: 3 span;
+
+        @include tablet {
+            grid-column: 6 span;
+        }
+
+        @include mobile {
+            &:not(:last-child) {
+                margin-bottom: 40px;
+            }
+        }
+
+        text-align: center;
+        grid-column: 3 span;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__icon {
+        svg {
+            width: 48px;
+            height: 48px;
+            fill: #9A9CA5;
+        }
+    }
+
+    &__value {
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 130%;
+        color: var(--color-primary);  
+        margin-top: 19px;     
+        
+        @include minidesk {
+            font-size: 26px;
+            line-height: 34px;
+        }
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: var(--color-ebony);
+        margin-top: 10px;        
+    }
+
+    &__content {
+        display: flex;
+        align-items: flex-start;
+
+        @include tablet {
+            display: block;
+        }
+    }
+
+    &__photo {
+        max-width: 100%;
+
+        @include minidesk {
+            max-width: 45%;
+        }
+
+        @include tablet {
+            max-width: 100%;
+        }
+    }
+
+    &__info {
+        max-width: 735px;
+        border-radius: 4px;
+        box-shadow: var(--box-shadow);
+        background-color: var(--color-white);
+        position: relative;
+        left: -30px;
+        top: -130px;
+        z-index: 10;
+        flex-shrink: 0;
+
+        @include minitablet {
+            width: 55%;
+            top: 0;
+            left: 0;
+        }
+
+        @include tablet {
+            width: 100%;
+        }
+      
+        @include mobile {
+            padding: 15px;
+        }
+    }
+}
+
+
+.quote {
+    padding: 90px 102px 68px 135px;
+
+    @include minitablet {
+        padding: 100px 40px 50px 70px;
+    }
+
+    @include mobile{
+        padding: 50px 0px 10px 0px;
+    }
+
+    &__text {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--color-ebony); 
+        position: relative;
+        
+        p {
+            &:first-child {
+                margin-bottom: 30px;
+            }
+        }
+        
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -59px;
+            width: 28px;
+            height: 20px;
+            background: url("../img/svg/Braces.svg") center / cover no-repeat;
+        } 
+    }
+
+    &__author {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: var(--color-storm);
+        margin-top: 50px;
+        background: url("../img/svg/Signature.svg") right 4px center no-repeat;
+        background-size: 100px 68px;
+        padding: 10px 0;
+
+        @include minitablet {
+            padding-bottom: 120px;
+            background-position: bottom 10px center;
+        }
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        display: block;
+        color: var(--color-ebony);
+        margin-bottom: 5px;
+    }
+}
