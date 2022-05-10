@@ -213,6 +213,11 @@ body.lock {
     font-size: 35px;
   }
 }
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 27px;
+  }
+}
 
 .section-desc {
   font-weight: 400;
@@ -2075,7 +2080,7 @@ body.lock {
 }
 @media (max-width: 576px) {
   .portfolio__top-title {
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 0px;
   }
 }
@@ -2086,6 +2091,16 @@ body.lock {
   -webkit-transform: translate(12px, 13px);
   -ms-transform: translate(12px, 13px);
   transform: translate(12px, 13px);
+}
+@media (max-width: 768px) {
+  .portfolio__top-switches {
+    -webkit-transform: translate(0px, 30px);
+    -ms-transform: translate(0px, 30px);
+    transform: translate(0px, 30px);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
 }
 .portfolio__slider {
   margin-top: 60px;
