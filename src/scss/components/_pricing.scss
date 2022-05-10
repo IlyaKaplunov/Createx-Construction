@@ -107,5 +107,10 @@
         letter-spacing: 0.5px;
         text-transform: uppercase;
         margin: 18px 0;
+
+        @include tablet {
+            line-height: 19px;
+            padding: 10px 8px;
+        }
     }
 }
