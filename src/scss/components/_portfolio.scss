@@ -18,7 +18,7 @@
             max-width: 705px;
 
             @include mobile {
-                font-size: 30px;
+                font-size: 26px;
                 margin-bottom: 0px;
             }
         }
@@ -26,6 +26,11 @@
         &-switches {
             display: flex;
             transform: translate(12px, 13px);
+
+            @include minitablet {
+                transform: translate(0px, 30px);
+                justify-content: center;
+            }
         }
     }
 
