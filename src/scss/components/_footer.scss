@@ -2,6 +2,10 @@
     background-color: var(--color-ebony);
     padding: 81px 0 80px;
 
+    @include minitablet {
+        padding: 50px 0;
+    }
+
     &__body {
         @include grid;
     }

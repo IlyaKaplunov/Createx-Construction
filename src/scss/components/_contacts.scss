@@ -1,6 +1,10 @@
 .contacts {
     background: var(--color-gray) url("../img/contacts/bg-image.jpg") center / cover no-repeat;
     padding: 80px 0 81px;
+
+    @include minitablet {
+        padding: 50px 0;
+    }
     
     &__body {
         display: flex;

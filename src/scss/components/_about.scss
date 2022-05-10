@@ -28,6 +28,10 @@
             height: 350px;
         }
 
+        @include mobile {
+            height: 200px;
+        }
+
         &::before {
             content: "";
             position: absolute;
@@ -59,8 +63,8 @@
             transition: all 0.3s ease-in-out;
 
             @include mobile {
-                width: 40px;
-                height: 40px;
+                width: 50px;
+                height: 50px;
             }
 
             &:focus {
@@ -83,8 +87,8 @@
                 transition: all 0.3s ease-in-out;
 
                 @include mobile {
-                    width: 13px;
-                    height: 13px;
+                    width: 22px;
+                    height: 22px;
                 }
             }
 
