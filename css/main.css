@@ -3295,6 +3295,12 @@ a.article-meta__item:active {
   text-transform: uppercase;
   margin: 18px 0;
 }
+@media (max-width: 1024px) {
+  .table__btn {
+    line-height: 19px;
+    padding: 10px 8px;
+  }
+}
 
 .intro-work {
   padding: 155px 0 178px 0;
