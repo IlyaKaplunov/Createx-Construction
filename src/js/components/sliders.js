@@ -1,5 +1,5 @@
-import Swiper, { Navigation, Pagination, GrabCursor, Thumbs } from "swiper"; 
-Swiper.use([Navigation, Pagination, Thumbs]); 
+import Swiper, { Navigation, Pagination, Thumbs, Autoplay} from "swiper"; 
+Swiper.use([Navigation, Pagination, Thumbs, Autoplay]); 
 
 const introSliderSpeed = 1500;
 
@@ -20,6 +20,10 @@ const introSlider = new Swiper(".intro__slider", {
     el: '.intro__pag',
     type: 'bullets',
     clickable: true,
+  },
+  autoplay: {
+    delay: 1500,
+    disableOnInteraction: true
   },
   on: {
     init: function () {

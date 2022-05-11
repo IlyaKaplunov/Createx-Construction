@@ -450,7 +450,7 @@ selects.forEach(function (el) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.esm.js");
 
-swiper__WEBPACK_IMPORTED_MODULE_0__["default"].use([swiper__WEBPACK_IMPORTED_MODULE_0__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_0__.Pagination, swiper__WEBPACK_IMPORTED_MODULE_0__.Thumbs]);
+swiper__WEBPACK_IMPORTED_MODULE_0__["default"].use([swiper__WEBPACK_IMPORTED_MODULE_0__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_0__.Pagination, swiper__WEBPACK_IMPORTED_MODULE_0__.Thumbs, swiper__WEBPACK_IMPORTED_MODULE_0__.Autoplay]);
 var introSliderSpeed = 1500;
 var bodyStyles = window.getComputedStyle(document.body);
 var fooBar = bodyStyles.getPropertyValue('--intro-slider-speed');
@@ -467,6 +467,10 @@ var introSlider = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".intro__sl
     el: '.intro__pag',
     type: 'bullets',
     clickable: true
+  },
+  autoplay: {
+    delay: 1500,
+    disableOnInteraction: true
   },
   on: {
     init: function init() {
