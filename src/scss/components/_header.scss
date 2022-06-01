@@ -27,8 +27,6 @@
         box-shadow: var(--box-shadow);
     }
 
-    
-
     &__body {
         @include flex-all-sb;
     }
