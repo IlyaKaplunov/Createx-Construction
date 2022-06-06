@@ -1595,6 +1595,9 @@ body.lock {
   color: var(--color-white);
 }
 
+.intro {
+  padding-top: 0;
+}
 .intro__body {
   display: -webkit-box;
   display: -ms-flexbox;
