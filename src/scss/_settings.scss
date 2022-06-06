@@ -351,30 +351,6 @@ body {
   }
 }
 
-.page-title {
-  font-weight: 700;
-  font-size: 72px;
-  line-height: 130%;
-  color: var(--color-ebony);
-  letter-spacing: 1px;
-  text-transform: uppercase;
-
-  @include mobile {
-    font-size: 45px;
-  }
-}
-
-.page-desc {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 150%;
-  color: var(--color-storm);
-  max-width: 600px;
-
-  @include mobile {
-    font-size: 15px;
-  }
-}
 
 .to-top {
   position: fixed;
