@@ -1,17 +1,12 @@
 .page-intro {
     padding-top: 156px;
 
-    @include tablet {
-        background-image: none;
-        padding-bottom: 120px;
-    }
-
-    @include mobile {
-        padding: 120px 0 60px 0;
-    }
-
     &__breadcrumbs {
         margin-bottom: 44px;
+
+        @include mobile {
+            margin-bottom: 14px;
+        }
     }
 
     &__title {
@@ -250,5 +245,14 @@
                 margin-bottom: 20px;
             }
         }
+    }
+
+    @include tablet {
+        background-image: none;
+        padding-bottom: 120px;
+    }
+
+    @include mobile {
+        padding: 120px 0 80px 0;
     }
 }
