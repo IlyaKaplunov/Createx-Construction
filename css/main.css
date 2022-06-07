@@ -1601,7 +1601,7 @@ body.lock {
 }
 
 .intro {
-  padding-top: 0;
+  padding: 0;
 }
 .intro__body {
   display: -webkit-box;
