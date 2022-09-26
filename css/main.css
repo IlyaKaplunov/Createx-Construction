@@ -5465,8 +5465,6 @@ a.article-meta__item:active {
 }
 @media (max-width: 1024px) {
   .post-form {
-    padding-left: 15px;
-    padding-right: 15px;
     padding: 70px 15px;
   }
 }
