@@ -26,13 +26,12 @@
         img {
             max-width: 100%;
         }
+
         @include tablet {
             display: flex;
             justify-content: center;
             grid-column: 3 span;
         }
-
-       
 
         &:focus {
             outline: 2px solid var(--color-primary);

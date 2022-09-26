@@ -32,7 +32,6 @@
     }
 
     &__logo {
-
         &:focus {
             outline: 2px solid var(--color-primary);
             outline-offset: 2px;
@@ -227,6 +226,7 @@
 
     @include tablet {
         display: block;
+
         &::before,
         &::after {
             content: "";
@@ -258,21 +258,21 @@
             bottom: 0;
         }
 
-    &.active {
-        &::before {
-            transform: rotate(45deg);
-            top: 10px;
-        }
+        &.active {
+            &::before {
+                transform: rotate(45deg);
+                top: 10px;
+            }
 
-        span {
-            width: 0;
-            opacity: 0;
-        }
+            span {
+                width: 0;
+                opacity: 0;
+            }
 
-        &::after {
-            transform: rotate(-45deg);
-            bottom: 11px;
+            &::after {
+                transform: rotate(-45deg);
+                bottom: 11px;
+            }
         }
-    }
     }
 }

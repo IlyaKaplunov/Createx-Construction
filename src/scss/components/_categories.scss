@@ -27,6 +27,7 @@
     &__pag {
         @include flex-all-center;
         margin-top: 58px;
+
         &-item {
             &:not(:last-child) {
                 margin-right: 21px;
@@ -46,7 +47,6 @@
             &--active {
                 color: var(--color-primary);
             }
-
 
             svg {
                 width: 22px;

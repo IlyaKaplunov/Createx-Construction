@@ -31,7 +31,7 @@
         max-width: 600px;
       
         @include mobile {
-          font-size: 15px;
+            font-size: 15px;
         }
     }
 
@@ -48,6 +48,7 @@
         
         .social__link {
             margin: 0 4px;
+
             svg {
                 width: 24px;
                 height: 24px;
@@ -92,6 +93,7 @@
     
                 &:not(:last-child) {
                     margin-right: 21px;
+                    
                     &::after {
                        height: 16px;
                     }

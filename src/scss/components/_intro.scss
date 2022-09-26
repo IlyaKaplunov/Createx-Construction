@@ -90,6 +90,7 @@
                 margin-right: 0;
                 text-align: center;
                 margin-bottom: 25px;
+
                 +.btn {
                     text-align: center;
                 }
@@ -209,7 +210,6 @@
             background-color: var(--color-white);
             transform-origin: left;
             transform: scaleX(0);
-            
         }
     }
 
@@ -231,8 +231,6 @@
                 transform: scaleX(1);
                 transition: transform var(--intro-slider-speed) ease-in-out;
             }
-
-            
         }
     }
 }

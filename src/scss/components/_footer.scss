@@ -97,7 +97,7 @@
 
         @include mobile {
             grid-column: 6 span;
-          }
+        }
     }
 }
 
@@ -127,11 +127,11 @@
 
     @include minitablet {
         grid-column: 12 span;
-      }
+    }
   
-      @include mobile {
+    @include mobile {
         grid-column: 7 span;
-      }
+    }
 
     &__title {
         font-weight: 700;
@@ -237,7 +237,6 @@
 
     @include minitablet {
         padding-left: 20px;
-        
     }
 
     @include mobile {
@@ -247,6 +246,7 @@
 
     &__col {
         @include flex-column-start;
+        
         &:not(:last-child) {
             margin-right: 125px;
 

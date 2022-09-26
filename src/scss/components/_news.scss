@@ -33,7 +33,6 @@
 
             @include tablet {
                 grid-column: 12 span;
-                
             }
         }
     }
@@ -99,7 +98,6 @@
 }
 
 .article-meta {
-
     @include mobile {
         display: flex;
         flex-wrap: wrap;
@@ -108,6 +106,7 @@
     &__item {
         color: var(--color-storm);
         position: relative;
+
         &:not(:last-child) {
             margin-right: 21px;
 
@@ -141,15 +140,15 @@
 
 a.article-meta__item {
     &:focus {
-      outline: 2px solid var(--color-primary);
-      outline-offset: 2px;
+        outline: 2px solid var(--color-primary);
+        outline-offset: 2px;
     }
   
     &:hover {
-      color: var(--color-primary);
+        color: var(--color-primary);
     }
   
     &:active {
-      color: var(--color-hover);
+        color: var(--color-hover);
     }
   }

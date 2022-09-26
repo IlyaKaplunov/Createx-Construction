@@ -25,14 +25,15 @@
     }
 
     &__right {
+        grid-column: 5 span;
+        display: flex;
+        justify-content: flex-end;
+
         @include tablet {
             order: 1;
             justify-content: center;
             margin-bottom: 40px;
         }
-        grid-column: 5 span;
-        display: flex;
-        justify-content: flex-end;
     }
 }
 
@@ -107,9 +108,9 @@
     }
 }
 
-
 .positions-looking {
     width: 390px;
+    
     &__title {
         font-weight: 700;
         font-size: 28px;

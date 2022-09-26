@@ -31,6 +31,11 @@
 
     &__item {
         grid-column: 3 span;
+        text-align: center;
+        grid-column: 3 span;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         @include tablet {
             grid-column: 6 span;
@@ -41,12 +46,6 @@
                 margin-bottom: 40px;
             }
         }
-
-        text-align: center;
-        grid-column: 3 span;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     &__icon {
@@ -125,7 +124,6 @@
         }
     }
 }
-
 
 .quote {
     padding: 90px 102px 68px 135px;

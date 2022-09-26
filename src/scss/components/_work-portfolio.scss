@@ -1,5 +1,6 @@
 .work-portfolio {
     padding-bottom: 98px;
+
     &__body {
         padding-top: 60px;
         display: grid;
@@ -155,6 +156,7 @@
 
         &--active {
             background-color: var(--color-primary);
+
             .work-tabs__item-icon svg {
                 fill: var(--color-white);
             }
@@ -178,8 +180,6 @@
             .work-tabs__item-title {
                 color: var(--color-white);
             }
-
-            
         }
         
         &-icon {
@@ -201,8 +201,6 @@
             transition: all 0.3s ease-in-out;
             margin-top: 15px;
         }
-
-        
     }
 }
 
