@@ -12,7 +12,7 @@
     "zip": "gulp zip",
     "code": "editorconfig-checker",
     "gh-pages": "gh-pages -d app",
-    "clean": "gh-pages clean"
+    "clean": "gh-pages-clean"
   },
   "author": "MaxGraph",
   "license": "ISC",
