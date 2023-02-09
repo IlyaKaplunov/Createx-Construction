@@ -7,6 +7,10 @@
     transition: all 0.3s ease-in-out;
     z-index: 100;
 
+    @include mobile {
+        padding: 15px 0;
+    }
+
     &--absolute {
         position: absolute;
         width: 100%;
