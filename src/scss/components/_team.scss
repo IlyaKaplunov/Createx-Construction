@@ -37,9 +37,9 @@
             grid-column: 6 span;
         }
 
-        @include mobile {
-            &:not(:last-child) {
-                margin-bottom: 50px;
+        &:not(:last-child) {
+            @include mobile {
+                margin-bottom: 0px;
             }
         }
 

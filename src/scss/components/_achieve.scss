@@ -3,6 +3,10 @@
     position: relative;
     overflow: hidden;
 
+    @include tablet {
+        padding-top: 80px;
+    }
+
     @include minitablet {
         padding-top: 50px;
     }
@@ -19,7 +23,7 @@
         gap: 30px;
         margin-bottom: 238px;
 
-        @include minitablet {
+        @include tablet {
             margin-bottom: 130px;
         }
 
@@ -99,7 +103,7 @@
     }
 
     &__info {
-        max-width: 735px;
+        width: 735px;
         border-radius: 4px;
         box-shadow: var(--box-shadow);
         background-color: var(--color-white);
@@ -109,7 +113,7 @@
         z-index: 10;
         flex-shrink: 0;
 
-        @include minitablet {
+        @include minidesk {
             width: 55%;
             top: 0;
             left: 0;

@@ -53,6 +53,10 @@
             width: 1px;
             height: 100%;
             background-color: rgba(#9A9CA5, 0.5);
+
+            @include tablet {
+                top: 2px;
+            }
         }
 
         &-item {
@@ -75,8 +79,8 @@
                 outline-offset: 2px;
             }
 
-            @include minitablet {
-                font-size: 20px;
+            @include tablet {
+                font-size: 22px;
             }
 
             &--active {
@@ -91,6 +95,10 @@
                 width: 1px;
                 height: 16px;
                 background-color: #F4F5F6;
+
+                @include tablet {
+                    top: 10px;
+                }
             }
 
             &::after {
@@ -102,6 +110,10 @@
                 height: 8px;
                 background-color: currentColor;
                 border-radius: 50%;
+
+                @include tablet {
+                    top: 14.5px;
+                }
             }
         }
     }

@@ -4203,6 +4203,11 @@ a.article-meta__item:active {
   position: relative;
   overflow: hidden;
 }
+@media (max-width: 1024px) {
+  .achieve {
+    padding-top: 80px;
+  }
+}
 @media (max-width: 768px) {
   .achieve {
     padding-top: 50px;
@@ -4221,7 +4226,7 @@ a.article-meta__item:active {
   gap: 30px;
   margin-bottom: 238px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .achieve__stat {
     margin-bottom: 130px;
   }
@@ -4311,7 +4316,7 @@ a.article-meta__item:active {
   }
 }
 .achieve__info {
-  max-width: 735px;
+  width: 735px;
   border-radius: 4px;
   -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
@@ -4323,7 +4328,7 @@ a.article-meta__item:active {
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .achieve__info {
     width: 55%;
     top: 0;
@@ -4609,6 +4614,11 @@ a.article-meta__item:active {
   height: 100%;
   background-color: rgba(154, 156, 165, 0.5);
 }
+@media (max-width: 1024px) {
+  .history__nav::before {
+    top: 2px;
+  }
+}
 .history__nav-item:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -4627,9 +4637,9 @@ a.article-meta__item:active {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .history__nav-btn {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 .history__nav-btn--active {
@@ -4644,6 +4654,11 @@ a.article-meta__item:active {
   height: 16px;
   background-color: #F4F5F6;
 }
+@media (max-width: 1024px) {
+  .history__nav-btn::before {
+    top: 10px;
+  }
+}
 .history__nav-btn::after {
   content: "";
   position: absolute;
@@ -4653,6 +4668,11 @@ a.article-meta__item:active {
   height: 8px;
   background-color: currentColor;
   border-radius: 50%;
+}
+@media (max-width: 1024px) {
+  .history__nav-btn::after {
+    top: 14.5px;
+  }
 }
 .history__slider {
   -ms-grid-column-span: 8;
@@ -4741,7 +4761,7 @@ a.article-meta__item:active {
 }
 @media (max-width: 576px) {
   .team__item:not(:last-child) {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
 }
 .team__item:hover .team__social {
@@ -5465,8 +5485,6 @@ a.article-meta__item:active {
 }
 @media (max-width: 1024px) {
   .post-form {
-    padding-left: 15px;
-    padding-right: 15px;
     padding: 70px 15px;
   }
 }
