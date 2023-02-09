@@ -844,6 +844,11 @@ body.lock {
   transition: all 0.3s ease-in-out;
   z-index: 100;
 }
+@media (max-width: 576px) {
+  .header {
+    padding: 15px 0;
+  }
+}
 .header--absolute {
   position: absolute;
   width: 100%;
@@ -1727,7 +1732,7 @@ body.lock {
 }
 @media (max-width: 576px) {
   .intro__slide {
-    padding: 80px 0 0 0;
+    padding: 55px 0 0 0;
   }
 }
 .intro__switch {
