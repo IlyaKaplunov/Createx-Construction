@@ -42,12 +42,17 @@
     &__item {
         display: block;
 
+        img {
+            max-width: 100%;
+            width: 100%;
+        }
+
         &:focus {
             outline: 2px solid var(--color-primary);
             outline-offset: 2px;
         }
         
-        @include middledesk {
+        @include tablet {
             display: flex;
             justify-content: center;
             grid-column: 3 span;

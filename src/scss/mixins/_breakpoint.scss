@@ -1,11 +1,5 @@
 /* stylelint-disable */
 
-@mixin desktop {
-  @media (min-width: (1025px)) {
-    @content;
-  }
-}
-
 @mixin middledesk {
   @media (max-width: (1440px)) {
     @content;
